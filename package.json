@@ -1,0 +1,42 @@
+{
+    "name": "client-nextjs-boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start",
+        "test": "jest --watchAll --no-cache",
+        "test:ci": "jest",
+        "test:coverage": "jest --coverage"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@blueprintjs/core": "^3.28.1",
+        "@types/next": "^9.0.0",
+        "axios": "^0.19.2",
+        "next": "^9.4.0",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    },
+    "devDependencies": {
+        "@types/enzyme": "^3.10.5",
+        "@types/jest": "^25.2.3",
+        "@types/node": "^13.13.10",
+        "@types/react": "^16.9.35",
+        "@typescript-eslint/eslint-plugin": "^3.1.0",
+        "@typescript-eslint/parser": "^3.1.0",
+        "babel-jest": "^26.0.1",
+        "babel-plugin-module-resolver": "^4.0.0",
+        "enzyme": "^3.11.0",
+        "enzyme-adapter-react-16": "^1.15.2",
+        "enzyme-to-json": "^3.5.0",
+        "jest": "^26.0.1",
+        "jest-watch-typeahead": "^0.6.0",
+        "prettier": "^2.0.5",
+        "typescript": "^3.9.5"
+    }
+}
