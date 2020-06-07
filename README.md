@@ -25,9 +25,9 @@ npm run test
 Use npm package manager (https://www.npmjs.com/) to install dependencies.
 
 Docker - build image
-
+```bash
 docker build -t <user>/<container name> {latest is automatically appended to this “:latest”} .
-
+```
 PM2 to handle live production app: https://pm2.keymetrics.io/
 
 ```bash
