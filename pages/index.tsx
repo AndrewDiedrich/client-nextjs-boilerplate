@@ -2,10 +2,11 @@ import Head from 'next/head';
 // import Link from 'next/link';
 // import { NextPageContext } from 'next';
 import { Card, Elevation } from '@blueprintjs/core';
+import { FlexColumn } from '@globalStyles';
 
 const LandingPage = () => {
     return (
-        <div>
+        <FlexColumn>
             <Head>
                 <title>Create Next App</title>
                 <link rel="icon" href="/favicon.ico" />
@@ -15,7 +16,7 @@ const LandingPage = () => {
                 <p>nextjs-typescript-jest-blueprintjs</p>
                 {/* <Button>Submit</Button> */}
             </Card>
-        </div>
+        </FlexColumn>
     );
 };
 

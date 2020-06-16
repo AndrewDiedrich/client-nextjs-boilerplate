@@ -8,7 +8,9 @@
                 "alias": {
                     "@components": "./components",
                     "@hooks": "./hooks",
-                    "@pages": "./pages"
+                    "@pages": "./pages",
+                    "@api": "./api",
+                    "@globalStyles": "./src/lib/globalStyles.tsx"
                 }
             }
         ]

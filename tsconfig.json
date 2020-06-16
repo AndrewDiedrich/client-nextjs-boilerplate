@@ -21,10 +21,11 @@
         "target": "esnext",
         "baseUrl": ".",
         "paths": {
-            "@/components/*": ["components/*"],
-            "@/hooks/*": ["hooks/*"],
-            "@/pages/*": ["pages/*"],
-            "@/api/*": ["api/*"]
+            "@components": ["components/*"],
+            "@hooks": ["hooks/*"],
+            "@pages": ["pages/*"],
+            "@api": ["api/*"],
+            "@globalStyles": ["src/lib/globalStyles.tsx"]
         }
     },
     "exclude": ["node_modules", "*.tests.tsx"],
