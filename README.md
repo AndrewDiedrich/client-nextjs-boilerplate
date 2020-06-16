@@ -32,7 +32,7 @@ docker build -t <user>/<container name> {latest is automatically appended to thi
 
 PM2 to handle live production app: [pm2](https://pm2.keymetrics.io/)
 
-Use npm package manager (https://www.npmjs.com/) to install dependencies.
+Use npm package manager [npmjs](https://www.npmjs.com/) to install dependencies.
 
 ```bash
 npm i
