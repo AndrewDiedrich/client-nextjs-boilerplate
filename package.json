@@ -18,7 +18,7 @@
         "@blueprintjs/core": "^3.28.1",
         "@types/next": "^9.0.0",
         "@types/styled-components": "^5.1.0",
-        "axios": "^0.19.2",
+        "axios": "^0.21.1",
         "next": "^9.4.0",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
